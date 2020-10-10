@@ -93,13 +93,47 @@ content {
         }
     }
 
+
+
+    .space-avis{
+        margin-top: 45px;
+        text-align: center;
+        padding: 10px;
+
+        h2 {
+            margin-bottom: 20px;
+            color: $orange;
+        }
+        
+        .avis {
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            
+            
+            img {
+                width: 50px;
+                border-radius: 50%;
+            }
+            
+            h4 {
+                margin: 5px;
+                color: $orange;
+            }
+        }
+    }
+
+
+
+
     .reseaux {
+        margin-top: 30px;
         height: 100px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         // background: linear-gradient(96.09deg, #ffab4b 2.58%, #FF8A00 100%);
-        
+
         svg {
             color: #FF8A00;
             width: 30px;
