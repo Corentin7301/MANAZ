@@ -1,36 +1,35 @@
 content {
 
-    img {
-        width: 100%;
+.map {
+    
+        background: url(/images/Map.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        height: 250px;
+}
+
+.storytelling {
+    text-align: justify;
+    padding: 15px;
+
+    h1 {
+        font-size: 16px;
+        font-size: center;
     }
-
-    .storytelling {}
-
-    .content-CTA {
-        display: flex;
-
-        .stores {
-            background: linear-gradient(180deg, #FFD600 0%, #FF8A00 100%);
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .maquette {
+}
 
 
-            img {
-                width: 100%;
-            }
-        }
-    }
 
     .newsletter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
 
         input {
-
+            margin-top: 10px;
             width: 192px;
             height: 25px;
             filter: drop-shadow(0px 0px 2px rgba(255, 136, 0, 0.788));
@@ -84,6 +83,16 @@ content {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+        }
+    }
+
+    .reseaux {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        svg {
+            width: 50px;
         }
     }
 

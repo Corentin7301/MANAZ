@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 // ================    RESET  ==========================
 @import "global/colors";
 @import "components/header";
 @import "components/content";
+@import "components/footer";
 
 
 
@@ -16,9 +17,11 @@ body {
   }
 
   h3,
+  h2,
   h1,
   p,
   header {
-    margin: 0
+    margin: 0;
+    font-family: 'Alata', sans-serif;
   }
 }

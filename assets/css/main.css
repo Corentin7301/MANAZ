@@ -1,30 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-content img {
-  width: 100%;
-}
-
-content .content-CTA {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-content .content-CTA .stores {
-  background: -webkit-gradient(linear, left top, left bottom, from(#FFD600), to(#FF8A00));
-  background: linear-gradient(180deg, #FFD600 0%, #FF8A00 100%);
-  width: 50%;
+  background: url(/images/manaz-header.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 250px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,16 +15,56 @@ content .content-CTA .stores {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+header .apple {
+  width: 80px;
+  height: 22px;
+  margin-top: 160px;
+}
+
+header .google {
+  width: 60px;
+  height: 20px;
+}
+
+content .map {
+  background: url(/images/Map.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 250px;
+}
+
+content .storytelling {
+  text-align: justify;
+  padding: 15px;
+}
+
+content .storytelling h1 {
+  font-size: 16px;
+  font-size: center;
+}
+
+content .newsletter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-content .content-CTA .maquette img {
-  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
 content .newsletter input {
+  margin-top: 10px;
   width: 192px;
   height: 25px;
   -webkit-filter: drop-shadow(0px 0px 2px rgba(255, 136, 0, 0.788));
@@ -103,7 +123,10 @@ content .arguments img {
   border-radius: 50%;
 }
 
-content .arguments .rapide, content .arguments .securise, content .arguments .carte, content .arguments .evenement {
+content .arguments .rapide,
+content .arguments .securise,
+content .arguments .carte,
+content .arguments .evenement {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,6 +134,34 @@ content .arguments .rapide, content .arguments .securise, content .arguments .ca
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+content .reseaux {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+content .reseaux svg {
+  width: 50px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -129,9 +180,11 @@ body a {
 }
 
 body h3,
+body h2,
 body h1,
 body p,
 body header {
   margin: 0;
+  font-family: 'Alata', sans-serif;
 }
 /*# sourceMappingURL=main.css.map */

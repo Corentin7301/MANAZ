@@ -1,5 +1,26 @@
 header {
+    background: url(/images/manaz-header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 250px;
+
+
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    
+    .apple {
+        width: 80px;
+        height: 22px;
+        margin-top: 160px;
+
+    }
+
+    .google {
+        width: 60px;
+        height: 20px;
+    }
+
+
 }
