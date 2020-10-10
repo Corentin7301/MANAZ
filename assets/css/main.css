@@ -68,6 +68,14 @@ content .map {
   background-position: center;
   background-size: 100%;
   height: 250px;
+  position: relative;
+}
+
+content .map img {
+  width: 200px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 content .storytelling {
