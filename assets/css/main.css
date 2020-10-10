@@ -28,6 +28,40 @@ header .google {
   height: 20px;
 }
 
+merci {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+merci .merci {
+  color: #FF8A00;
+  text-align: center;
+  margin-top: 50px;
+}
+
+merci .retour-site {
+  margin-top: 50px;
+  width: 120px;
+  height: 35px;
+  background: linear-gradient(274.12deg, #FF8A00 -17.16%, #FFD600 135.88%);
+  -webkit-box-shadow: 0px 0px 45px rgba(255, 138, 0, 0.3);
+          box-shadow: 0px 0px 45px rgba(255, 138, 0, 0.3);
+  border-radius: 5px;
+  border: #FF8A00;
+  color: #FFFFFF;
+}
+
 content .map {
   background: url(/images/Map.png);
   background-repeat: no-repeat;
