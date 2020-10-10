@@ -119,7 +119,7 @@ content .newsletter input {
   border-radius: 5px;
 }
 
-content .newsletter button {
+content .newsletter #button-submit {
   width: 86px;
   height: 25px;
   background: linear-gradient(274.12deg, #FF8A00 -17.16%, #FFD600 135.88%);
