@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,4FAAI;AAOZ,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,CAAC;CAaV;;AAdD,AAGE,IAHE,CAGF,CAAC,CAAC;EACA,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,OAAO;CACf;;AANH,AAQE,IARE,CAQF,EAAE;AARJ,IAAI,CASF,EAAE;AATJ,IAAI,CAUF,CAAC;AAVH,IAAI,CAWF,MAAM,CAAC;EACL,MAAM,EAAE,CACV;CAAC",
+    "sources": [
+        "main.scss",
+        "global/_colors.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
