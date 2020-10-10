@@ -1,4 +1,124 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+content img {
+  width: 100%;
+}
+
+content .content-CTA {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+content .content-CTA .stores {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFD600), to(#FF8A00));
+  background: linear-gradient(180deg, #FFD600 0%, #FF8A00 100%);
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+content .content-CTA .maquette img {
+  width: 100%;
+}
+
+content .newsletter input {
+  width: 192px;
+  height: 25px;
+  -webkit-filter: drop-shadow(0px 0px 2px rgba(255, 136, 0, 0.788));
+          filter: drop-shadow(0px 0px 2px rgba(255, 136, 0, 0.788));
+  border: solid 1px #ff8800;
+  border-radius: 5px;
+}
+
+content .newsletter button {
+  width: 86px;
+  height: 25px;
+  background: linear-gradient(274.12deg, #FF8A00 -17.16%, #FFD600 135.88%);
+  -webkit-box-shadow: 0px 0px 45px rgba(255, 138, 0, 0.3);
+          box-shadow: 0px 0px 45px rgba(255, 138, 0, 0.3);
+  border-radius: 5px;
+  border: #FF8A00;
+  font-size: 13px;
+  color: #FFFFFF;
+  line-height: 18px;
+}
+
+content .partenaires {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+content .partenaires img {
+  width: 50px;
+}
+
+content .arguments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+content .arguments img {
+  width: 63px;
+  border-radius: 50%;
+}
+
+content .arguments .rapide, content .arguments .securise, content .arguments .carte, content .arguments .evenement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 body {
   margin: 0;
 }
