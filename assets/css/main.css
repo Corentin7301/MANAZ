@@ -215,6 +215,10 @@ content .partenaires img {
   color: #ff880081;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
