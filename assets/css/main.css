@@ -64,7 +64,7 @@ content .newsletter {
 }
 
 content .newsletter input {
-  margin-top: 10px;
+  margin: 10px 0 30px 0;
   width: 192px;
   height: 25px;
   -webkit-filter: drop-shadow(0px 0px 2px rgba(255, 136, 0, 0.788));
@@ -86,22 +86,8 @@ content .newsletter button {
   line-height: 18px;
 }
 
-content .partenaires {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-content .partenaires img {
-  width: 50px;
-}
-
 content .arguments {
+  background: linear-gradient(269.59deg, #FFD600 0.12%, #FF8A00 79.15%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,6 +107,11 @@ content .arguments {
 content .arguments img {
   width: 63px;
   border-radius: 50%;
+}
+
+content .arguments .carte,
+content .arguments .evenement {
+  margin-bottom: 30px;
 }
 
 content .arguments .rapide,
@@ -143,6 +134,7 @@ content .arguments .evenement {
 }
 
 content .reseaux {
+  height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -152,13 +144,32 @@ content .reseaux {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background: linear-gradient(96.09deg, #ffab4b 2.58%, #FF8A00 100%);
 }
 
 content .reseaux svg {
+  width: 30px;
+  color: #FFD600;
+}
+
+content .partenaires {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+content .partenaires img {
   width: 50px;
 }
 
 footer {
+  background: linear-gradient(96.09deg, #FFD600 2.58%, #FF8A00 100%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -1,23 +1,23 @@
 content {
 
-.map {
-    
+    .map {
+
         background: url(/images/Map.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
         height: 250px;
-}
-
-.storytelling {
-    text-align: justify;
-    padding: 15px;
-
-    h1 {
-        font-size: 16px;
-        font-size: center;
     }
-}
+
+    .storytelling {
+        text-align: justify;
+        padding: 15px;
+
+        h1 {
+            font-size: 16px;
+            font-size: center;
+        }
+    }
 
 
 
@@ -29,7 +29,7 @@ content {
         text-align: center;
 
         input {
-            margin-top: 10px;
+            margin: 10px 0 30px 0;
             width: 192px;
             height: 25px;
             filter: drop-shadow(0px 0px 2px rgba(255, 136, 0, 0.788));
@@ -50,31 +50,26 @@ content {
         }
     }
 
-    .partenaires {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-
-        img {
-            width: 50px;
-        }
-    }
-
+    
     .arguments {
-        display: flex;
+        background: linear-gradient(269.59deg, #FFD600 0.12%, #FF8A00 79.15%);        display: flex;
         justify-content: space-around;
         align-items: center;
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(2, 1fr);
-
+        
         img {
             width: 63px;
             border-radius: 50%;
         }
-
-
-
+        
+        .carte,
+        .evenement {
+            margin-bottom: 30px;
+        }
+        
+        
         .rapide,
         .securise,
         .carte,
@@ -85,17 +80,32 @@ content {
             align-items: center;
         }
     }
-
+    
     .reseaux {
+        height: 100px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        background: linear-gradient(96.09deg, #ffab4b 2.58%, #FF8A00 100%);
         
         svg {
-            width: 50px;
+            width: 30px;
+            color: #FFD600;
         }
     }
+    
+    .partenaires {
+        
+        height: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
 
+        img {
+            width: 50px;
+        }
 
-
+    }
+    
+    
 }
