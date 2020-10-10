@@ -11,22 +11,16 @@
 <body>
 
   <header id="top">
-    <img src="/images/app-store-seeklogofrench.com_.png" alt="Apple-store" class="apple">
-    <img src="/images/googleplay-button.png" alt="Google-play" class="google">
+    <a href="#"><img src="/images/app-store-seeklogofrench.com_.png" alt="Apple-store" class="apple"></a>
+    <a href="#"><img src="/images/googleplay-button.png" alt="Google-play" class="google"></a>
   </header>
 
 
   <content>
 
-<div class="map">
-  <img src="#" alt="mockup">
-
-
-
-</div>
-
-
-
+    <div class="map">
+      <img src="#" alt="mockup">
+    </div>
 
     <div class="storytelling">
       <h3>« Le sport ne forge pas le caractère, il le révèle. »</h3>
@@ -35,7 +29,6 @@
         Jusqu’au jour où leurs habitudes se retrouvent brutalement impactées par l’éloignement et la mobilité...
         Entre éloignement et manque de réseau, ils constatent la difficulté de trouver des partenaires de sport afin de
         se motiver pour passer à l’action.
-
         Ils décident donc de prendre le risque de lancer un nouveau concept : un outil permettant de localiser des
         rencontres sportives ayant lieu à proximité de chez soi à l’aide d’une cartographie intelligente, de proposer
         des profils cohérents grâce à un algorithme performant (âge, activité…) et d’offrir une base de données
@@ -44,49 +37,75 @@
     </div>
 
     </div>
-    <div class="newsletter">
+    <div class="newsletter" id="newsletter">
       <p>Vous voulez en savoir plus ?</p>
       <p> Recevez notre newsletter !</p>
-      <form action="">
+      <form action="#newsletter">
         <label for="email"></label>
         <input type="text" name="email" id="email">
         <button type="submit">Envoyer</button>
       </form>
     </div>
-    
+
     <div class="arguments">
-      
       <div class="rapide">
-        <img src="https://i.picsum.photos/id/1082/200/200.jpg?hmac=3usO1ziO7kCseIG52ruhRigxyk39W_L9eECWe1Hs6fY" alt="">
-        <p>Rapide</p>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M11.933 12.8a1 1 0 000-1.6L6.6 7.2A1 1 0 005 8v8a1 1 0 001.6.8l5.333-4zM19.933 12.8a1 1 0 000-1.6l-5.333-4A1 1 0 0013 8v8a1 1 0 001.6.8l5.333-4z">
+          </path>
+        </svg>
+        <h3>Rapide</h3>
       </div>
       <div class="securise">
-        <img src="https://i.picsum.photos/id/1082/200/200.jpg?hmac=3usO1ziO7kCseIG52ruhRigxyk39W_L9eECWe1Hs6fY" alt="">
-        <p>Sécurisé</p>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
+          </path>
+        </svg>
+        <h3>Sécurisé</h3>
       </div>
       <div class="carte">
-        <img src="https://i.picsum.photos/id/1082/200/200.jpg?hmac=3usO1ziO7kCseIG52ruhRigxyk39W_L9eECWe1Hs6fY" alt="">
-        <p>Carte intéractive</p>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7">
+          </path>
+        </svg>
+        <h3>Carte intéractive</h3>
       </div>
       <div class="evenement">
-        <img src="https://i.picsum.photos/id/1082/200/200.jpg?hmac=3usO1ziO7kCseIG52ruhRigxyk39W_L9eECWe1Hs6fY" alt="">
-        <p>Evenements</p>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+        </svg>
+        <h3>Evenements</h3>
       </div>
     </div>
-    
+
     <div class="reseaux">
       <a href="https://facebook.com/ManazSport">
-        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square" class="svg-inline--fa fa-facebook-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path></svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square"
+          class="svg-inline--fa fa-facebook-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z">
+          </path>
+        </svg>
       </a>
       <a href="https://instagram.com/manaz.sport">
-        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram-square" class="svg-inline--fa fa-instagram-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"></path></svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
       </a>
-      <a href="https://linkedin.com/">
-        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="svg-inline--fa fa-linkedin fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+      <a href="https://www.linkedin.com/company/manaz-sport/">
+        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
+          class="svg-inline--fa fa-linkedin fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+          </path>
+        </svg>
       </a>
-      
+
     </div>
-    
+
     <div class="partenaires">
       <img src="/images/mont foot 5.png" alt="montfoot5">
       <img src="/images/logo annecy handball.png" alt="annecy-handball">
@@ -94,84 +113,84 @@
       <img src="/images/go-sport-1170x878.png" alt="gosport">
       <img src="/images/799px-Decathlon_Logo.png" alt="decathlon">
     </div>
-    
+
   </content>
 
-<footer>
-<a href="#top">
-  <svg width="50" height="50" viewBox="0 0 2048 2048" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g filter="url(#filter0_i)">
-      <rect x="203" y="203" width="1641" height="1641" rx="350" fill="url(#paint0_linear)" />
-      <rect x="203" y="203" width="1641" height="1641" rx="350" fill="url(#paint1_linear)" fill-opacity="0.26"
-        style="mix-blend-mode:soft-light" />
-    </g>
-    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="203" y="203" width="1641" height="1641">
-      <rect x="203" y="203" width="1641" height="1641" rx="350" fill="url(#paint2_linear)" />
-      <rect x="203" y="203" width="1641" height="1641" rx="350" fill="url(#paint3_linear)" fill-opacity="0.26" />
-    </mask>
-    <g mask="url(#mask0)">
-      <path d="M454.104 2054.22V415.24L654.104 584V2054.22H454.104Z" fill="url(#paint4_linear)" />
-      <path d="M1408.34 1477.16L453.659 690.499L453.655 415L1533.07 1328.51L1408.34 1477.16Z"
-        fill="url(#paint5_linear)" />
-      <path d="M1593.79 2054.22V415.24L1393.79 584V2054.22H1593.79Z" fill="url(#paint6_linear)" />
-      <path d="M639.557 1477.16L1594.24 690.499L1594.24 415L514.825 1328.51L639.557 1477.16Z"
-        fill="url(#paint7_linear)" />
-    </g>
-    <defs>
-      <filter id="filter0_i" x="203" y="203" width="1641" height="1645" filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB">
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-          result="hardAlpha" />
-        <feOffset dy="4" />
-        <feGaussianBlur stdDeviation="2" />
-        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-        <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.1 0" />
-        <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
-      </filter>
-      <linearGradient id="paint0_linear" x1="1023.5" y1="203" x2="1023.5" y2="1844" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#FFD600" />
-        <stop offset="1" stop-color="#FF8A00" />
-      </linearGradient>
-      <linearGradient id="paint1_linear" x1="389.5" y1="287.5" x2="1719" y2="1754" gradientUnits="userSpaceOnUse">
-        <stop stop-color="white" />
-        <stop offset="1" />
-      </linearGradient>
-      <linearGradient id="paint2_linear" x1="1023.5" y1="203" x2="1023.5" y2="1844" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#F5D31F" />
-        <stop offset="1" stop-color="#CE5D0B" />
-      </linearGradient>
-      <linearGradient id="paint3_linear" x1="389.5" y1="287.5" x2="1719" y2="1754" gradientUnits="userSpaceOnUse">
-        <stop stop-color="white" />
-        <stop offset="1" />
-      </linearGradient>
-      <linearGradient id="paint4_linear" x1="554.104" y1="415.24" x2="554.104" y2="2054.22"
-        gradientUnits="userSpaceOnUse">
-        <stop stop-color="white" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
-      </linearGradient>
-      <linearGradient id="paint5_linear" x1="385.828" y1="495.834" x2="1469.07" y2="1404.78"
-        gradientUnits="userSpaceOnUse">
-        <stop stop-color="white" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
-      </linearGradient>
-      <linearGradient id="paint6_linear" x1="1493.79" y1="415.24" x2="1493.79" y2="2054.22"
-        gradientUnits="userSpaceOnUse">
-        <stop stop-color="white" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
-      </linearGradient>
-      <linearGradient id="paint7_linear" x1="1662.07" y1="495.834" x2="578.827" y2="1404.78"
-        gradientUnits="userSpaceOnUse">
-        <stop stop-color="white" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
-      </linearGradient>
-    </defs>
-  </svg>
-</a>
+  <footer>
+    <a href="#top">
+      <svg width="50" height="50" viewBox="0 0 2048 2048" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_i)">
+          <rect x="203" y="203" width="1641" height="1641" rx="350" fill="url(#paint0_linear)" />
+          <rect x="203" y="203" width="1641" height="1641" rx="350" fill="url(#paint1_linear)" fill-opacity="0.26"
+            style="mix-blend-mode:soft-light" />
+        </g>
+        <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="203" y="203" width="1641" height="1641">
+          <rect x="203" y="203" width="1641" height="1641" rx="350" fill="url(#paint2_linear)" />
+          <rect x="203" y="203" width="1641" height="1641" rx="350" fill="url(#paint3_linear)" fill-opacity="0.26" />
+        </mask>
+        <g mask="url(#mask0)">
+          <path d="M454.104 2054.22V415.24L654.104 584V2054.22H454.104Z" fill="url(#paint4_linear)" />
+          <path d="M1408.34 1477.16L453.659 690.499L453.655 415L1533.07 1328.51L1408.34 1477.16Z"
+            fill="url(#paint5_linear)" />
+          <path d="M1593.79 2054.22V415.24L1393.79 584V2054.22H1593.79Z" fill="url(#paint6_linear)" />
+          <path d="M639.557 1477.16L1594.24 690.499L1594.24 415L514.825 1328.51L639.557 1477.16Z"
+            fill="url(#paint7_linear)" />
+        </g>
+        <defs>
+          <filter id="filter0_i" x="203" y="203" width="1641" height="1645" filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha" />
+            <feOffset dy="4" />
+            <feGaussianBlur stdDeviation="2" />
+            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.1 0" />
+            <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+          </filter>
+          <linearGradient id="paint0_linear" x1="1023.5" y1="203" x2="1023.5" y2="1844" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFD600" />
+            <stop offset="1" stop-color="#FF8A00" />
+          </linearGradient>
+          <linearGradient id="paint1_linear" x1="389.5" y1="287.5" x2="1719" y2="1754" gradientUnits="userSpaceOnUse">
+            <stop stop-color="white" />
+            <stop offset="1" />
+          </linearGradient>
+          <linearGradient id="paint2_linear" x1="1023.5" y1="203" x2="1023.5" y2="1844" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F5D31F" />
+            <stop offset="1" stop-color="#CE5D0B" />
+          </linearGradient>
+          <linearGradient id="paint3_linear" x1="389.5" y1="287.5" x2="1719" y2="1754" gradientUnits="userSpaceOnUse">
+            <stop stop-color="white" />
+            <stop offset="1" />
+          </linearGradient>
+          <linearGradient id="paint4_linear" x1="554.104" y1="415.24" x2="554.104" y2="2054.22"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="white" />
+            <stop offset="1" stop-color="white" stop-opacity="0" />
+          </linearGradient>
+          <linearGradient id="paint5_linear" x1="385.828" y1="495.834" x2="1469.07" y2="1404.78"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="white" />
+            <stop offset="1" stop-color="white" stop-opacity="0" />
+          </linearGradient>
+          <linearGradient id="paint6_linear" x1="1493.79" y1="415.24" x2="1493.79" y2="2054.22"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="white" />
+            <stop offset="1" stop-color="white" stop-opacity="0" />
+          </linearGradient>
+          <linearGradient id="paint7_linear" x1="1662.07" y1="495.834" x2="578.827" y2="1404.78"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="white" />
+            <stop offset="1" stop-color="white" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </a>
 
 
-</footer>
+  </footer>
 
 </body>
 

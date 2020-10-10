@@ -41,9 +41,12 @@ content .storytelling {
   padding: 15px;
 }
 
-content .storytelling h1 {
-  font-size: 16px;
-  font-size: center;
+content .storytelling h3 {
+  margin-top: 30px;
+}
+
+content .storytelling p {
+  margin-bottom: 30px;
 }
 
 content .newsletter {
@@ -64,7 +67,7 @@ content .newsletter {
 }
 
 content .newsletter input {
-  margin: 10px 0 30px 0;
+  margin-top: 10px;
   width: 192px;
   height: 25px;
   -webkit-filter: drop-shadow(0px 0px 2px rgba(255, 136, 0, 0.788));
@@ -81,37 +84,18 @@ content .newsletter button {
           box-shadow: 0px 0px 45px rgba(255, 138, 0, 0.3);
   border-radius: 5px;
   border: #FF8A00;
-  font-size: 13px;
   color: #FFFFFF;
-  line-height: 18px;
 }
 
 content .arguments {
+  margin-top: 45px;
   background: linear-gradient(269.59deg, #FFD600 0.12%, #FF8A00 79.15%);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: (1fr)[2];
       grid-template-rows: repeat(2, 1fr);
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-}
-
-content .arguments img {
-  width: 63px;
-  border-radius: 50%;
-}
-
-content .arguments .carte,
-content .arguments .evenement {
-  margin-bottom: 30px;
 }
 
 content .arguments .rapide,
@@ -133,6 +117,21 @@ content .arguments .evenement {
           align-items: center;
 }
 
+content .arguments .carte,
+content .arguments .evenement {
+  margin-bottom: 30px;
+}
+
+content .arguments h3 {
+  color: white;
+}
+
+content .arguments svg {
+  padding: 5px;
+  color: white;
+  width: 50px;
+}
+
 content .reseaux {
   height: 100px;
   display: -webkit-box;
@@ -149,7 +148,7 @@ content .reseaux {
 
 content .reseaux svg {
   width: 30px;
-  color: #FFD600;
+  color: #ffffff;
 }
 
 content .partenaires {
