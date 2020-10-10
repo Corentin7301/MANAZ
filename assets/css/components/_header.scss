@@ -37,10 +37,10 @@ merci {
         margin-top: 50px;
         width: 120px;
         height: 35px;
-        background: linear-gradient(274.12deg, #FF8A00 -17.16%, #FFD600 135.88%);
+        background: linear-gradient(274.12deg, $orange -17.16%, $jaune 135.88%);
         box-shadow: 0px 0px 45px rgba(255, 138, 0, 0.3);
         border-radius: 5px;
-        border: #FF8A00;
+        border: $orange;
         color: #FFFFFF;
     }
 }
