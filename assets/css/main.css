@@ -3,7 +3,7 @@ header {
   background: url(/images/manaz-header.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,11 +61,23 @@ merci .retour-site {
   color: #FFFFFF;
 }
 
+@media all and (min-width: 480px) and (max-width: 768px) {
+  header .apple {
+    margin-top: 350px;
+    width: 120px;
+    height: 33px;
+  }
+  header .google {
+    width: 85px;
+    height: 28px;
+  }
+}
+
 content .map {
   background: url(/images/Map.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   height: 250px;
   position: relative;
 }
@@ -252,6 +264,30 @@ content .partenaires img {
 #button_top a svg {
   width: 40px;
   color: #ff880081;
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  content .map {
+    height: 50vh;
+  }
+  content .map img {
+    width: 300px;
+  }
+  content #button_top {
+    right: 40px;
+  }
+  content #button_top a svg {
+    width: 50px;
+    color: #ff880081;
+  }
+  content .reseaux {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  content .reseaux svg {
+    margin: 0 30px;
+  }
 }
 
 html {

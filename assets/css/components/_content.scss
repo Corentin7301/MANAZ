@@ -4,9 +4,10 @@ content {
         background: url(/images/Map.png);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 100%;
+        background-size: cover;
         height: 250px;
         position: relative;
+
 
         img {
             width: 200px;
@@ -96,7 +97,7 @@ content {
 
 
 
-    .space-avis{
+    .space-avis {
         margin-top: 45px;
         text-align: center;
         padding: 10px;
@@ -105,18 +106,18 @@ content {
             margin-bottom: 20px;
             color: $orange;
         }
-        
+
         .avis {
             display: grid;
             grid-template-rows: repeat(2, 1fr);
             grid-template-columns: repeat(2, 1fr);
-            
-            
+
+
             img {
                 width: 50px;
                 border-radius: 50%;
             }
-            
+
             h4 {
                 margin: 5px;
                 color: $orange;
@@ -137,7 +138,6 @@ content {
         svg {
             color: $orange;
             width: 30px;
-            // color: #ffffff;
         }
     }
 
@@ -169,6 +169,42 @@ content {
         svg {
             width: 40px;
             color: #ff880081;
+        }
+    }
+}
+
+// tablette
+@media all and (min-width: 480px) and (max-width: 768px) {
+    content {
+
+
+        .map {
+            height: 50vh;
+
+            img {
+                width: 300px;
+            }
+        }
+
+
+
+        #button_top {
+            right: 40px;
+
+            a {
+                svg {
+                    width: 50px;
+                    color: #ff880081;
+                }
+            }
+        }
+
+        .reseaux {
+            justify-content: center;
+
+            svg {
+                margin: 0 30px;
+            }
         }
     }
 }
