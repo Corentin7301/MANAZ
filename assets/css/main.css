@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+.loader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 100%;
+  left: 0;
+  background-color: black;
+  z-index: 9999;
+  -webkit-transition: bottom 200ms ease-in-out 1000ms;
+  transition: bottom 200ms ease-in-out 1000ms;
+}
+
+.isLoading .loader {
+  bottom: 0;
+}
+
 header {
   background: url(/images/manaz-header.png);
   background-repeat: no-repeat;
@@ -240,6 +256,10 @@ content .space-avis .avis img {
 content .space-avis .avis h4 {
   margin: 5px;
   color: #FF8A00;
+}
+
+content .space-avis .avis p {
+  padding: 10px;
 }
 
 content .reseaux {

@@ -1,3 +1,25 @@
+.loader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 100%;
+    left: 0;
+    background-color: black;
+    z-index: 9999;
+    // visibility: hidden;
+    // opacity: 0;
+    transition: bottom 200ms ease-in-out 1000ms;
+}
+
+.isLoading {
+    .loader {
+        bottom: 0;
+        // visibility: visible;
+        // opacity: 1;
+    }
+}
+
+
 header {
     background: url(/images/manaz-header.png);
     background-repeat: no-repeat;
@@ -5,7 +27,7 @@ header {
     background-size: cover;
     height: 50vh;
     position: relative;
-    
+
     .stores {
         display: flex;
         flex-direction: column;
@@ -13,11 +35,12 @@ header {
         position: absolute;
         bottom: 10px;
         left: 38%;
+
         a {
             img {
                 width: 40%;
             }
-            
+
         }
     }
 
@@ -35,6 +58,8 @@ merci {
         color: $orange;
         text-align: center;
         margin-top: 50px;
+
+
     }
 
     .retour-site {
@@ -62,7 +87,7 @@ merci {
 @media all and (min-width: 480px) and (max-width: 768px) {
     header {
         height: 50vh;
-        
+
         .stores {
             left: 42%;
         }
@@ -73,7 +98,7 @@ merci {
 @media all and (min-width: 769px) and (max-width: 1024px) {
     header {
         height: 100vh;
-        
+
         .stores {
             left: 43%;
         }
@@ -84,12 +109,12 @@ merci {
 @media all and (min-width: 1025px) and (max-width: 1280px) {
     header {
         height: 100vh;
-        
+
         .stores {
             left: 45%;
         }
     }
-    
+
 
 
 }
@@ -98,7 +123,7 @@ merci {
 @media all and (min-width: 1281px) {
     header {
         height: 100vh;
-        
+
         .stores {
             left: 45%;
         }
