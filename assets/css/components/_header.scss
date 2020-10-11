@@ -3,20 +3,25 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    .apple {
-        width: 80px;
-        height: 22px;
-        margin-top: 160px;
+    height: 50vh;
+    position: relative;
+    
+    .stores {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        bottom: 10px;
+        left: 38%;
+        a {
+            img {
+                width: 40%;
+            }
+            
+        }
     }
 
-    .google {
-        width: 60px;
-        height: 20px;
-    }
+
 }
 
 
@@ -52,37 +57,50 @@ merci {
 // 480-less - phone landscape & smaller
 // --------------------------------------------*/
 
-@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
 // tablette
-@media all and (min-width: 480px) and (max-width: 768px) { 
+@media all and (min-width: 480px) and (max-width: 768px) {
     header {
+        height: 50vh;
         
-        .apple {
-            margin-top: 350px;
-            width: 120px;
-            height: 33px;
-        }
-        
-        .google {
-            width: 85px;
-            height: 28px;
+        .stores {
+            left: 42%;
         }
     }
 }
 
-
-@media all and (min-width: 768px) and (max-width: 1024px) { 
+// tablette ipad pro
+@media all and (min-width: 769px) and (max-width: 1024px) {
     header {
-        height: 50vh;
-        .apple {
-            margin-top: 550px;
-            width: 167px;
-            height: 47px;
-        }
+        height: 100vh;
         
-        .google {
-            width: 118px;
-            height: 39px;
+        .stores {
+            left: 43%;
+        }
+    }
+}
+
+// desktop
+@media all and (min-width: 1025px) and (max-width: 1280px) {
+    header {
+        height: 100vh;
+        
+        .stores {
+            left: 45%;
+        }
+    }
+    
+
+
+}
+
+// large desktop
+@media all and (min-width: 1281px) {
+    header {
+        height: 100vh;
+        
+        .stores {
+            left: 45%;
         }
     }
 }

@@ -4,6 +4,11 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 50vh;
+  position: relative;
+}
+
+header .stores {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,17 +19,13 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: 38%;
 }
 
-header .apple {
-  width: 80px;
-  height: 22px;
-  margin-top: 160px;
-}
-
-header .google {
-  width: 60px;
-  height: 20px;
+header .stores a img {
+  width: 40%;
 }
 
 merci {
@@ -62,29 +63,38 @@ merci .retour-site {
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
-  header .apple {
-    margin-top: 350px;
-    width: 120px;
-    height: 33px;
-  }
-  header .google {
-    width: 85px;
-    height: 28px;
-  }
-}
-
-@media all and (min-width: 768px) and (max-width: 1024px) {
   header {
     height: 50vh;
   }
-  header .apple {
-    margin-top: 550px;
-    width: 167px;
-    height: 47px;
+  header .stores {
+    left: 42%;
   }
-  header .google {
-    width: 118px;
-    height: 39px;
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+  header {
+    height: 100vh;
+  }
+  header .stores {
+    left: 43%;
+  }
+}
+
+@media all and (min-width: 1025px) and (max-width: 1280px) {
+  header {
+    height: 100vh;
+  }
+  header .stores {
+    left: 45%;
+  }
+}
+
+@media all and (min-width: 1281px) {
+  header {
+    height: 100vh;
+  }
+  header .stores {
+    left: 45%;
   }
 }
 
@@ -305,7 +315,7 @@ content .partenaires img {
   }
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 480px) and (max-width: 768px) {
   content .map {
     height: 50vh;
   }
@@ -317,7 +327,84 @@ content .partenaires img {
   }
   content #button_top a svg {
     width: 50px;
-    color: #ff880081;
+  }
+  content .reseaux {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  content .reseaux svg {
+    margin: 0 30px;
+  }
+}
+
+@media all and (min-width: 1281px) {
+  content .map {
+    height: 100vh;
+  }
+  content .map img {
+    width: 500px;
+  }
+  content .storytelling {
+    padding: 20px 20%;
+  }
+  content #button_top {
+    right: 40px;
+  }
+  content #button_top a svg {
+    width: 50px;
+  }
+  content .reseaux {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  content .reseaux svg {
+    margin: 0 30px;
+  }
+}
+
+@media all and (min-width: 1025px) and (max-width: 1280px) {
+  content .map {
+    height: 75vh;
+  }
+  content .map img {
+    width: 500px;
+  }
+  content .storytelling {
+    padding: 20px 10%;
+  }
+  content #button_top {
+    right: 40px;
+  }
+  content #button_top a svg {
+    width: 50px;
+  }
+  content .reseaux {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  content .reseaux svg {
+    margin: 0 30px;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+  content .map {
+    height: 50vh;
+  }
+  content .map img {
+    width: 500px;
+  }
+  content .storytelling {
+    padding: 20px 10%;
+  }
+  content #button_top {
+    right: 40px;
+  }
+  content #button_top a svg {
+    width: 50px;
   }
   content .reseaux {
     -webkit-box-pack: center;
