@@ -73,6 +73,21 @@ merci .retour-site {
   }
 }
 
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    height: 50vh;
+  }
+  header .apple {
+    margin-top: 550px;
+    width: 167px;
+    height: 47px;
+  }
+  header .google {
+    width: 118px;
+    height: 39px;
+  }
+}
+
 content .map {
   background: url(/images/Map.png);
   background-repeat: no-repeat;
@@ -272,6 +287,30 @@ content .partenaires img {
   }
   content .map img {
     width: 300px;
+  }
+  content #button_top {
+    right: 40px;
+  }
+  content #button_top a svg {
+    width: 50px;
+    color: #ff880081;
+  }
+  content .reseaux {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  content .reseaux svg {
+    margin: 0 30px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  content .map {
+    height: 50vh;
+  }
+  content .map img {
+    width: 400px;
   }
   content #button_top {
     right: 40px;

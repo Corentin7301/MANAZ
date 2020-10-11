@@ -71,4 +71,18 @@ merci {
 }
 
 
-@media all and (min-width: 768px) and (max-width: 1024px) { }
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    header {
+        height: 50vh;
+        .apple {
+            margin-top: 550px;
+            width: 167px;
+            height: 47px;
+        }
+        
+        .google {
+            width: 118px;
+            height: 39px;
+        }
+    }
+}

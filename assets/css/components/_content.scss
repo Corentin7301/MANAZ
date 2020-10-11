@@ -208,3 +208,41 @@ content {
         }
     }
 }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+    content {
+
+
+        .map {
+            height: 50vh;
+
+            img {
+                width: 400px;
+            }
+        }
+
+
+
+        #button_top {
+            right: 40px;
+
+            a {
+                svg {
+                    width: 50px;
+                    color: #ff880081;
+                }
+            }
+        }
+
+        .reseaux {
+            justify-content: center;
+
+            svg {
+                margin: 0 30px;
+            }
+        }
+
+
+    }
+}
